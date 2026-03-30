@@ -1,0 +1,10 @@
+name: First Workflow
+on: workflow_dispatch   #manual trigger to the workflow 
+jobs:
+  first-job:
+    runs-on: ubuntu-latest    # it is basically the virtual machine by github hosted runners u specify 
+    steps:
+      - name: Print greeting
+        run: echo "Hello World!"   # this will be runned in the command line . 
+      - name: Print goodbye
+        run: echo "Done - bye!"
