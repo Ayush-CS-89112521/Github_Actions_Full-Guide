@@ -2,7 +2,7 @@ name: Website Deployment
 on:
   push:
     branches:
-      - main
+      - dev
 defaults:
   run: 
     working-directory: ./Part4_cont_workflow_job_exex/ctrl_workflow_and_job_exe
